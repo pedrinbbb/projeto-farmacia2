@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Farmacia genial</title>
+    <link rel="stylesheet" href="styles/media-query.css">
     <link rel="stylesheet" href="styles/style.css">
     <link rel="shortcut icon" href="img/favicon-16x16.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
     <style>
         @font-face {
             font-family: fonte;
@@ -29,134 +31,46 @@
     </style>
 </head>
 <body>
-    <div class="cabecalho">
-        <div class="cabecalho-container">
-            <div class="cabecalho-col">
-                <a href="index.html"><span class="titulo"> <img src="img/cabecalho.png" width="50px">Farmacia Genial</span></a>
-            </div>
-            <div class="cabecalho-col">
-                <a href="index.html">Inicio</a>
-                <a href="catalogo.html">Catálogo</a>
-            </div>
-            <div>
-                <h3>Entrega gratis</h3>
-            </div>
+    <div class="header-container">
+        <div class="header-col">
+            <a href="#"><img src="img/cabecalho.png" width="42px"> <span>Farmacia Genial</span></a>
         </div>
+        <div class="header-col">
+            <span class="material-symbols-outlined">favorite</span>
+            <span class="material-symbols-outlined" id="btn-abrir" onclick="abrirMenu()">menu</span>
+        </div>   
     </div>
+    <nav id="menu">
+            <ul>
+                <li><a href="#" onclick="fecharMenu()"> <span class="material-symbols-outlined">close</span>Fechar</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="catalogo.html">Catálogo</a></li>
+                <li><a href="promocoes.html">Promoções</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav> 
     <main>
         <section class="fundo-banner">
-            <h1>Sua Saúde é <span class="destaque">Nossa</span></h1>
-            <h3><span class="destaque">Prioridade</span>.</h3>
+            <h1>Sua Saúde é <span class="destaque">Nossa Prioridade</span>.</h1>
             <p>Encontre os melhores medicamentos, produtos de higiene e beleza com os menores preços. Entrega rápida e atendimento personalizado.</p>
-            <a href="catalogo.html">Produtos</a>
-            <a href="" class="fale-conosco">Fale Conosco</a>
+            <ul>
+                <li><a href="#" class="prod">Produtos</a></li>
+                <li><a href="#" class="fale">Fale Conosco</a></li>
+            </ul>
         </section>
-        <h2>MAIS VENDIDOS</h2>
-        <section class="conteudo">
-            <aside>
-                <a href="https://api.whatsapp.com/send?phone=55085985677491&text=Ol%C3%A1,%20quero%20saber%20mais%20sobre%20este%20produto" target="_blank">
-                <img src="
-                img/paracetamol.png"></a>
-                <h3>Paracetamol 500mg</h3>
-                <p>Por R$ 10,00</p>
-                <a href="https://api.whatsapp.com/send?phone=55085985677491&text=Ol%C3%A1,%20quero%20saber%20mais%20sobre%20este%20produto" target="_blank">
-                    Adicionar no carrinho</a>
-            </aside>
-            <aside>
-                <a href="https://api.whatsapp.com/send?phone=55085985677491&text=Ol%C3%A1,%20quero%20saber%20mais%20sobre%20este%20produto" target="_blank">
-                <img src="img/paracetamol.png"></a>
-                <h3>Paracetamol 500mg</h3>
-                <p>Por R$ 10,00</p>
-                <a href="https://api.whatsapp.com/send?phone=55085985677491&text=Ol%C3%A1,%20quero%20saber%20mais%20sobre%20este%20produto" target="_blank">
-                    Adicionar no carrinho</a>
-            </aside>
-            <aside>
-                <a href="https://api.whatsapp.com/send?phone=55085985677491&text=Ol%C3%A1,%20quero%20saber%20mais%20sobre%20este%20produto" target="_blank">
-                <img src="img/paracetamol.png"></a>
-                <h3>Paracetamol 500mg</h3>
-                <p>Por R$ 10,00</p>
-                <a href="https://api.whatsapp.com/send?phone=55085985677491&text=Ol%C3%A1,%20quero%20saber%20mais%20sobre%20este%20produto" target="_blank">
-                    Adiconar no carrinho</a>
-            </aside>
-            <aside>
-                <a href="https://api.whatsapp.com/send?phone=55085985677491&text=Ol%C3%A1,%20quero%20saber%20mais%20sobre%20este%20produto" target="_blank">
-                <img src="img/paracetamol.png"></a>
-                <h3>Paracetamol 500mg</h3>
-                <p>Por R$ 10,00</p>
-                <a href="https://api.whatsapp.com/send?phone=55085985677491&text=Ol%C3%A1,%20quero%20saber%20mais%20sobre%20este%20produto" target="_blank">
-                    Adiconar no carrinho</a>
-            </aside>
-            <aside>
-                <a href="https://api.whatsapp.com/send?phone=55085985677491&text=Ol%C3%A1,%20quero%20saber%20mais%20sobre%20este%20produto" target="_blank">
-                <img src="img/paracetamol.png"></a>
-                <h3>Paracetamol 500mg</h3>
-                <p>Por R$ 10,00</p>
-                <a href="https://api.whatsapp.com/send?phone=55085985677491&text=Ol%C3%A1,%20quero%20saber%20mais%20sobre%20este%20produto" target="_blank">
-                    Adiconar no carrinho</a>
-            </aside>
-            <aside>
-                <a href="https://api.whatsapp.com/send?phone=55085985677491&text=Ol%C3%A1,%20quero%20saber%20mais%20sobre%20este%20produto" target="_blank">
-                <img src="img/paracetamol.png"></a>
-                <h3>Paracetamol 500mg</h3>
-                <p>Por R$ 10,00</p>
-                <a href="https://api.whatsapp.com/send?phone=55085985677491&text=Ol%C3%A1,%20quero%20saber%20mais%20sobre%20este%20produto" target="_blank">
-                    Adiconar no carrinho</a>
-            </aside>
-            <aside>
-                <a href="https://api.whatsapp.com/send?phone=55085985677491&text=Ol%C3%A1,%20quero%20saber%20mais%20sobre%20este%20produto" target="_blank">
-                <img src="img/paracetamol.png"></a>
-                <h3>Paracetamol 500mg</h3>
-                <p>Por R$ 10,00</p>
-                <a href="https://api.whatsapp.com/send?phone=55085985677491&text=Ol%C3%A1,%20quero%20saber%20mais%20sobre%20este%20produto" target="_blank">
-                    Adiconar no carrinho</a>
-            </aside>
-            <aside>
-                <a href="https://api.whatsapp.com/send?phone=55085985677491&text=Ol%C3%A1,%20quero%20saber%20mais%20sobre%20este%20produto" target="_blank">
-                <img src="img/paracetamol.png"></a>
-                <h3>Paracetamol 500mg</h3>
-                <p>Por R$ 10,00</p>
-                <a href="https://api.whatsapp.com/send?phone=55085985677491&text=Ol%C3%A1,%20quero%20saber%20mais%20sobre%20este%20produto" target="_blank">
-                    Adiconar no carrinho</a>
-            </aside>
-            <aside>
-                <a href="https://api.whatsapp.com/send?phone=55085985677491&text=Ol%C3%A1,%20quero%20saber%20mais%20sobre%20este%20produto" target="_blank">
-                <img src="img/paracetamol.png"></a>
-                <h3>Paracetamol 500mg</h3>
-                <p>Por R$ 10,00</p>
-                <a href="https://api.whatsapp.com/send?phone=55085985677491&text=Ol%C3%A1,%20quero%20saber%20mais%20sobre%20este%20produto" target="_blank">
-                    Adiconar no carrinho</a>
-            </aside>
-        </section>
-        
     </main>
-    <footer>
-        <div class="footer">
-            <div class="footer-container">
-                <div class="footer-col">
-                    <h2>Farmacia Genial</h2>
-                    <p>Sua farmácia online de confiança. Cuidando da sua saúde com qualidade e carinho.</p>
-                    <a href="https://wa.link/71187x" target="_blank"><img src="img/whatsapp.png"> </a>
-                    <a href="https://www.instagram.com/farmaciagenial/" target="_blank"><img src="img/instagram.png"> </a>
-                </div>
-                <div class="footer-col">
-                    <h2>Links úteis</h2>
-                    <p><a href="#">Sobre Nós</a></p>
-                    <p><a href="#">Politica de Privacidade</a></p>
-                    <p><a href="#">Termos de Uso</a></p>
-                    <p><a href="#">FAQ</a></p>
-                </div>
-                <div class="footer-col">
-                    <h2>Contato</h2>
-                    <img src="img/telefone.png" width="24px">
-                    <span>(85) 98810-4274</span> <br>
-                    <img src="img/pin-de-localizacao.png">
-                    <span>Fortaleza, CE</span> <br>
-                    <img src="img/relogio.png">
-                    <span>Abre 07:00</span>
-                </div>
-             </div>
-            </div>
-        </div>
-    </footer>
+    
+    <script>
+        function abrirMenu(){
+            if(document.getElementById('menu').style.width == '250px'){
+                document.getElementById('menu').style.width = '0px'
+            }else{
+                document.getElementById('menu').style.width = '250px'
+            }
+        }
+        function fecharMenu(){
+            document.getElementById('menu').style.width = '0px'
+        }
+    </script>
 </body>
 </html>
