@@ -81,14 +81,14 @@ nav a:hover{
     width: 290px;
     font-size: 2em;
     padding-bottom: 12px;
-    text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.295);
+    text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.082);
 }
 .fundo-banner p{
     color: white;
     font-family: fonte1;
     width: 280px;
     padding-bottom: 25px;
-    text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.5);
+    text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.089);
 }
 .fundo-banner .destaque{
     color: #F56865;
