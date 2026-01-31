@@ -27,7 +27,10 @@ ul{
 nav{
     height: 100%;
     width: 0px;
-    background-color: rgb(15, 34, 139);
+    background-image: url(../img/fotogustavo.jfif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     position: fixed;
     top: 0;
     left: 0;
@@ -36,7 +39,7 @@ nav{
     transition: width 0.3s;
 }
 nav a{
-    color: white;
+    color: rgb(255, 255, 255);
     display: block;
     font-size: 1.6em;
     padding: 16px 0px;
@@ -206,7 +209,6 @@ aside img:hover{
     gap: 18px;
     flex-wrap: wrap;
     padding: 8px;
-    
 }
 .produtos-col{
     max-width: 200px;
@@ -235,8 +237,42 @@ aside h5{
     font-size: 0.8em;
     font-family: Arial, Helvetica, sans-serif;
 }
+.valor{
+    color: rgba(0, 0, 255, 0.842);
+}
 
-
+.footer-container{
+    background-color: #1E3EA1;
+    flex-direction: column;
+    margin-top: 34px;
+}
+.footer-col h1{
+    color: white;
+    font-size: 1.7em;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.411);
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 12px;
+}
+.footer-col p{
+    color: white;
+    font-size: 1.1em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.596);
+    padding-top: 12px;
+    padding-bottom: 8px;
+}
+.footer-col{
+    padding: 24px;
+    width: 260px;
+}
+.footer-col img{
+    width: 27px;
+    padding-right: 12px;
+}
+.footer-col img:hover{
+    transition: 0.5s;
+    transform: scale(1.1);
+}
 
 
 
