@@ -27,22 +27,20 @@ ul{
 nav{
     height: 100%;
     width: 0px;
-    background-image: url(../img/fotogustavo.jfif);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: #1E3EA1;
     position: fixed;
     top: 0;
     left: 0;
     z-index: 1;
     overflow: hidden;
     transition: width 0.3s;
+    border-radius: 0px 10px 0px 10px;
 }
 nav a{
     color: rgb(255, 255, 255);
     display: block;
     font-size: 1.6em;
-    padding: 16px 0px;
+    padding: 14px 0px;
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -126,10 +124,7 @@ nav a:hover{
     background-color: #ff0400;
     transition: 0.5s;
 }
-.fundo-banner li:hover{
-    transition: 0.5s;
-    transform: scale(1.1);
-}
+
 .beneficios{
     padding: 8px;
 }
@@ -243,36 +238,68 @@ aside h5{
 
 .footer-container{
     background-color: #1E3EA1;
-    flex-direction: column;
-    margin-top: 34px;
 }
 .footer-col h1{
     color: white;
     font-size: 1.7em;
-    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.411);
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.082);
     font-family: Arial, Helvetica, sans-serif;
-    padding-top: 12px;
-}
-.footer-col p{
-    color: white;
-    font-size: 1.1em;
-    font-family: Arial, Helvetica, sans-serif;
-    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.596);
     padding-top: 12px;
     padding-bottom: 8px;
+}
+.footer-col p{
+    color: #C1CCCC;
+    font-size: 1.04em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.24);
+    line-height: 1.7em;
+    
+}
+.footer-col > p > a{
+    color: #C1CCCC;
+    font-size: 0.9em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.089);
+    line-height: 1.7em;
+}
+.footer-col > p > a:hover{
+    color: #ffffff;
 }
 .footer-col{
     padding: 24px;
     width: 260px;
+    
 }
-.footer-col img{
-    width: 27px;
-    padding-right: 12px;
+div.icon-box2{
+    width: 38px;
+    height: 38px;
+    display: flex;
+    background-color: #20487c9c;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.096);
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
 }
-.footer-col img:hover{
+.footer-col i{
+    flex: auto;
+    padding: 12px;
+    color: white;
+    gap: 12px;
+}
+div.footer-icon-box{
+    display: flex;
+    gap: 12px;
+    margin-top: 6px;
+}
+div.icon-box2:hover{
     transition: 0.5s;
-    transform: scale(1.1);
+    background-color: #DD342E;
 }
+div.footer-col-ctt{
+    display: flex;
+    flex-direction: column;
+}
+
 
 
 
