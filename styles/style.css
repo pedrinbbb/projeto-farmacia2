@@ -197,11 +197,25 @@ main h1{
 aside img{
     width: 150px;
 }
+aside img:hover{
+    transition: 0.6s;
+    transform: scale(1.1);
+}
 .produtos-container{
     display: flex;
-    gap: 100px;
+    gap: 50px;
     flex-wrap: wrap;
     padding-top: 45px;
+    padding-left: 27px;
+}
+.produtos-col{
+    padding: 12px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.075);
+}
+.produtos-col:hover{
+    transition: 0.6s;
+    box-shadow: 0px 8px 7px rgba(0, 0, 0, 0.253);
 }
 
 
