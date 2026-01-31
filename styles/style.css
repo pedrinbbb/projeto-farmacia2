@@ -63,9 +63,8 @@ nav a:hover{
 }
 .header-col > span{
     padding-top: 6px;
-    padding-left: 16px;
     color: #464da8;
-    cursor: pointer;
+    cursor: context-menu;
 }
 .fundo-banner{
     background-image: url(../img/fundobanner.png);
@@ -237,6 +236,7 @@ aside h5{
 }
 
 .footer-container{
+    margin-top: 34px;
     background-color: #1E3EA1;
 }
 .footer-col h1{
@@ -295,10 +295,22 @@ div.icon-box2:hover{
     transition: 0.5s;
     background-color: #DD342E;
 }
-div.footer-col-ctt{
+.footer-ctt{
     display: flex;
-    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+    gap: 8px;
+
 }
+.footer-ctt .text{
+    color: #C1CCCC;
+
+}
+.footer-ctt span{
+    padding-top: 6px;
+    color: #F87171;
+}
+
 
 
 
