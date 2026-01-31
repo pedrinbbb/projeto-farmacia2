@@ -27,14 +27,13 @@ ul{
 nav{
     height: 100%;
     width: 0px;
-    background-color: rgba(15, 34, 139, 0.897);
+    background-color: rgb(15, 34, 139);
     position: fixed;
     top: 0;
     left: 0;
     z-index: 1;
     overflow: hidden;
     transition: width 0.3s;
-    
 }
 nav a{
     color: white;
@@ -82,14 +81,14 @@ nav a:hover{
     width: 290px;
     font-size: 2em;
     padding-bottom: 12px;
-    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.295);
+    text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.295);
 }
 .fundo-banner p{
     color: white;
     font-family: fonte1;
     width: 280px;
     padding-bottom: 25px;
-    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.5);
+    text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.5);
 }
 .fundo-banner .destaque{
     color: #F56865;
@@ -135,6 +134,7 @@ nav a:hover{
     flex-direction: column;
     justify-items: center;
     margin: auto;
+    cursor: context-menu;
 }
 .icon-box{
     width: 38px;
@@ -168,6 +168,56 @@ nav a:hover{
     margin-top: 5px;
     color: #6F798B;
 }
+
+main p{
+    text-align: center;
+    color: #dc322e;
+    font-size: 1.2em;
+    font-family: fonte1;
+    padding-top: 42px;
+}
+main h1{
+    text-align: center;
+    width: 81%;
+    margin: auto;
+    font-size: 1.7em;
+    color: #1E3A5F;
+    font-family: fonte2;
+}
+.img-produto{
+    background-image: url(../img/paracetamol.png);
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: 1px solid black;
+    margin: auto;
+    width: 60%;
+    height: 100vh;
+}
+aside img{
+    width: 150px;
+}
+.produtos-container{
+    display: flex;
+    gap: 100px;
+    flex-wrap: wrap;
+    padding-top: 45px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (min-height: 500px){
     .fundo-banner{  
         height: 240px;
