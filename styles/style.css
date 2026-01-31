@@ -170,11 +170,10 @@ nav a:hover{
     margin-top: 5px;
     color: #6F798B;
 }
-@media (max-height: 1px){
+@media (min-height: 667px){
     .fundo-banner{  
-        min-height: 28vh;
+        height: 240px;
     }
-    
 }
 
 
