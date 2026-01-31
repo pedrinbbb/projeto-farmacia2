@@ -18,6 +18,24 @@ div.header-container{
     align-items: center;
     justify-content: space-around;
 }
+.header-col > a{
+    font-size: 1.5em;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    text-decoration: none;
+    color: var(--cor2);
+    font-weight: bold;
+    font-family: fonte3;
+}
+.header-col{
+    padding-top: 12px;
+}
+.header-col > span{
+    padding-top: 6px;
+    color: #464da8;
+    cursor: context-menu;
+}
 a{
     text-decoration: none;
 }
@@ -48,24 +66,7 @@ nav a:hover{
     background-color: white;
     color: #383D88;
 }
-.header-col > a{
-    font-size: 1.5em;
-    display: flex;
-    align-items: center;
-    gap: 6px;
-    text-decoration: none;
-    color: var(--cor2);
-    font-weight: bold;
-    font-family: fonte3;
-}
-.header-col{
-    padding-top: 12px;
-}
-.header-col > span{
-    padding-top: 6px;
-    color: #464da8;
-    cursor: context-menu;
-}
+
 .fundo-banner{
     background-image: url(../img/fundobanner.png);
     background-position: left center;
