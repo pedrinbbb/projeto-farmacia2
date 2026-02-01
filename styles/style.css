@@ -129,6 +129,7 @@ nav a:hover{
     padding: 8px;
 }
 .beneficio-container{
+    display: flex;
     flex-direction: column;
     justify-items: center;
     margin: auto;
@@ -202,7 +203,7 @@ aside img:hover{
 .produtos-container{
     display: flex;
     gap: 18px;
-    flex-wrap: wrap;
+    flex-wrap: wrap;    
     padding: 8px;
 }
 .produtos-col{
@@ -334,41 +335,18 @@ div.icon-box2:hover{
     }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* tela de pc */
+@media screen and (min-width: 950px) and (max-width: 1920px){
+    .footer-container{
+        display: flex;
+        justify-content: space-around;
+    }
+    .beneficio-container{
+        display: flex;
+        justify-items: center;
+    }
+    
+}
 
 @media (max-width: 500px) {
   .beneficios-container {
