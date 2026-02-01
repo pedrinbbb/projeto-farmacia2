@@ -2,4 +2,57 @@
     tablet 501 x 1024
     pc 1025 x 1920
 */ 
-
+@media screen and (min-width: 300px) and (max-width: 700px) {
+    div.header-container{
+        justify-content: space-around;
+        width: 100%;
+    }
+    div.header-container #btn-abrir{
+        padding-left: 68px;
+    }
+    .header-nav{
+        display: none;
+    }
+    .header-col h3{
+        display: none;
+    }
+    .header-col h3{
+        display: none;
+    }
+    .header-col i{
+        display: none;
+    }
+}
+@media screen and (min-width: 700px) and (max-width: 1920px) {
+    div.header-container{
+        justify-content: space-between;
+        padding: 0px 25px;
+    }
+    div.header-col{
+        display: flex;
+        gap: 25px;
+    }
+    .header-col > span{
+        display: none;
+    }
+    .header-col i{
+        color: rgb(70, 70, 180);
+        font-size: 18px;
+        cursor: pointer;
+    }
+    .header-nav a{
+        display: inline-block;
+        color: rgb(47, 54, 158);
+        font-size: 1.1em;
+        margin-right: 12px;
+        font-family: fonte1;
+    }
+    .header-nav a:hover{
+        color: red;
+        transition: 0.3s;
+    }
+    .header-col h3{
+        color: red;
+        font-family: fonte3;
+    }
+}

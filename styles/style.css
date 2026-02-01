@@ -16,7 +16,6 @@
 div.header-container{
     display: flex;
     align-items: center;
-    justify-content: space-around;
 }
 .header-col > a{
     font-size: 1.5em;
@@ -329,24 +328,6 @@ div.icon-box2:hover{
 
 
 
-@media (min-height: 500px){
-    .fundo-banner{  
-        height: 240px;
-    }
-}
-
-/* tela de pc */
-@media screen and (min-width: 950px) and (max-width: 1920px){
-    .footer-container{
-        display: flex;
-        justify-content: space-around;
-    }
-    .beneficio-container{
-        display: flex;
-        justify-items: center;
-    }
-    
-}
 
 @media (max-width: 500px) {
   .beneficios-container {
