@@ -38,6 +38,15 @@
         width: 320px;
         font-size: 2em;
     }
+    .text-banner a.fale:hover{
+        background-color: white;
+        color: rgb(0, 0, 0);
+        transition: 0.5s;  
+    }
+    .text-banner a:hover{
+        transition: 0.5s;
+        background-color: red;    
+    }
     .beneficio-container{
         flex-direction: column;
     }
@@ -87,7 +96,7 @@
     }
     .text-banner{
         padding-left: 68px;
-        width: 650px;
+        
     }
     .fundo-banner h1{
         width: 570px;
@@ -97,9 +106,13 @@
         font-size: 1.2em;
         width: 420px;
     }
+    .text-banner li:hover{
+        transition: 0.5s;
+        transform: scale(1.1);
+    }   
     .beneficio-container{
-
         flex-direction: row;
     }
+
     
 }

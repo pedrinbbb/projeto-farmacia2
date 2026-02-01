@@ -112,22 +112,12 @@ nav a:hover{
     border: 1px solid white;
     box-shadow: 1px 1px 10px rgba(255, 0, 0, 0);
 }
-.fundo-banner a.fale:hover{
-    background-color: white;
-    color: black;
-    transition: 0.5s;
-}
-.fundo-banner a:hover{
-    background-color: #ff0400;
-    transition: 0.5s;
-}
-
 .beneficios{
     padding: 8px;
 }
 .beneficio-container{
     display: flex;
-    justify-items: center;
+    justify-content: space-between;
     margin: auto;
     cursor: context-menu;
 }
