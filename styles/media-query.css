@@ -134,5 +134,8 @@
     .beneficio-container{
         flex-direction: row;
     }
-
+    .footer-container{
+        display: flex;
+        justify-content: space-around;
+    }
 }
