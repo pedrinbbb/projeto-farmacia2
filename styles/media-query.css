@@ -56,7 +56,12 @@
     }
 }
 /* altura responsiva celular */
-@media screen and (min-height: 500px) and (max-height: 932px){
+@media screen and (min-height: 500px) and (max-height: 700px){
+    .fundo-banner{
+        height: 250px;
+    }
+}
+@media screen and (min-height: 701px) and (max-height: 932px){
     .fundo-banner{
         height: 250px;
     }
@@ -124,9 +129,5 @@
     .beneficio-container{
         flex-direction: row;
     }
-    .beneficio-item{
-        
-    }
 
-    
 }
